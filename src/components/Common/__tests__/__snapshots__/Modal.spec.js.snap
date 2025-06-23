@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modal.vue render when created  1`] = `
+<div
+  class="lxp-modal"
+>
+  <div
+    class="modal fade"
+  >
+    <div
+      class="modal-dialog modal-dialog-centered modal-md"
+      role="document"
+    >
+      <div
+        class="modal-content"
+      >
+        <div
+          class="modal-header"
+        >
+          <h5
+            class="modal-title"
+          >
+            Modal Title
+          </h5>
+           
+          <button
+            class="lxp-modal__close"
+            type="button"
+          >
+            <img
+              alt="close"
+              loading="lazy"
+              src="https://files.lxp.academy.who.int/didactica/assets/images/modal/close.svg"
+            />
+          </button>
+        </div>
+         
+        <div
+          class="modal-body"
+        />
+         
+        <div
+          class="modal-footer"
+        >
+           
+          <div
+            class="d-flex"
+          >
+            <button
+              class="btn btn-outline-primary btn-sm lxp-button"
+              type="button"
+            >
+              
+              Cancel
+            
+            </button>
+             
+            <button
+              class="btn btn-primary btn-sm lxp-button"
+              type="button"
+            >
+              Save
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+   
+  <div
+    class="modal-backdrop"
+  />
+</div>
+`;

@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Accordion.vue renders when created 1`] = `
+<div
+  class="accordion-wrapper variant1"
+>
+  <div
+    class="accordion-item"
+  >
+    <div
+      class="accordion-header"
+    >
+      <img
+        loading="lazy"
+        src="https://whoalxppublicstorage.blob.core.windows.net/didactica/assets/images/awards/arrow.svg"
+      />
+       
+      <span>
+        Item 1
+      </span>
+    </div>
+     
+    <!---->
+  </div>
+  <div
+    class="accordion-item"
+  >
+    <div
+      class="accordion-header"
+    >
+      <img
+        loading="lazy"
+        src="https://whoalxppublicstorage.blob.core.windows.net/didactica/assets/images/awards/arrow.svg"
+      />
+       
+      <span>
+        Item 2
+      </span>
+    </div>
+     
+    <!---->
+  </div>
+  <div
+    class="accordion-item"
+  >
+    <div
+      class="accordion-header"
+    >
+      <img
+        loading="lazy"
+        src="https://whoalxppublicstorage.blob.core.windows.net/didactica/assets/images/awards/arrow.svg"
+      />
+       
+      <span>
+        Item 3
+      </span>
+    </div>
+     
+    <!---->
+  </div>
+</div>
+`;

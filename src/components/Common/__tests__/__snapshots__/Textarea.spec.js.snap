@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Textarea.vue render when created  1`] = `
+<div
+  class="lxp-textarea__wrapper"
+>
+  <div
+    class="lxp-textarea"
+  >
+    <label
+      for="textarea"
+    >
+      Textarea label
+    </label>
+     
+    <textarea
+      class="form-control"
+      id="textarea"
+      placeholder="Placeholder"
+      style="resize: none; overflow-y: scroll;"
+      wrap="soft"
+    />
+  </div>
+   
+  <div
+    class="lxp-textarea__footer"
+  >
+    <!---->
+     
+    <div
+      class="lxp-input__footer--limit"
+    >
+      
+      0/0
+    
+    </div>
+  </div>
+</div>
+`;

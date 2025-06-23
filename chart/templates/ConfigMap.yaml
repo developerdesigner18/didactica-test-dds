@@ -1,0 +1,10 @@
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name:  "{{ include "my-app.fullname" . }}-domain-verification"
+data:
+  assetlinks.json: |-
+    {{ .Values.asset_links }}
+  microsoft-identity-association.json: |-
+    {{ .Values.microsoft_publisher_domain }}

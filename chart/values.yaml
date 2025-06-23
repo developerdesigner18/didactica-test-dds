@@ -1,0 +1,42 @@
+app_name: didactica
+replicas: 1
+
+# Docker deets
+image_repository: azurecr.io
+image_name: didactica
+image_namespace: whoalxp
+# likely over written by the Argo definition
+app_tag: 0.1.18
+
+# OCP route
+route: 
+  # enable the OCP route
+  enabled: true
+  # enable https and auto redirect http to https
+  https_redirect: true
+  # configure the custom host name
+  # by default openshift will assign a host name
+  # if it is a private cluster it will assign the private route
+  # else the public route
+  custom_host:
+    enabled: false
+    name: web-dev.lxp.academy.who.int
+
+hpa:
+  enabled: false
+  minReplicas: 1
+  maxReplicas: 5
+  cpuTarget: 100m
+  memTarget: 250Mi
+  cpuLimit: 200m
+  memLimit: 500Mi
+
+
+# Domain verification for app registrations used for logging into SSO via WIMS 
+microsoft_publisher_domain: {
+  "associatedApplications": [
+    {
+      "applicationId": "d4162504-47a0-46b6-950b-08a3aae669ae"
+    }
+  ]
+}

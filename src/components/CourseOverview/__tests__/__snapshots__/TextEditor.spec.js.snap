@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextEditor.vue Props renders when created 1`] = `
+<div
+  class="lxp-text_editor"
+>
+  <!---->
+   
+  <div
+    class="quill-editor ql-container ql-bubble"
+    id="htmlEditor"
+  >
+    <div
+      class="ql-editor ql-blank"
+      contenteditable="true"
+      data-gramm="false"
+      data-placeholder="Type something in here!"
+    />
+    <div
+      class="ql-clipboard"
+      contenteditable="true"
+      tabindex="-1"
+    />
+    <div
+      class="ql-tooltip ql-hidden"
+    >
+      <span
+        class="ql-tooltip-arrow"
+      />
+      <div
+        class="ql-tooltip-editor"
+      >
+        <input
+          data-formula="e=mc^2"
+          data-link="  Paste link here and press enter"
+          data-video="Embed URL"
+          type="text"
+        />
+        <a
+          class="ql-close"
+        />
+      </div>
+      <div
+        class="ql-toolbar"
+      >
+        <span
+          class="ql-formats"
+        >
+          <button
+            class="ql-bold"
+            type="button"
+          />
+          <button
+            class="ql-italic"
+            type="button"
+          />
+        </span>
+        <span
+          class="ql-formats"
+        >
+          <button
+            class="ql-list"
+            type="button"
+            value="ordered"
+          />
+          <button
+            class="ql-list"
+            type="button"
+            value="bullet"
+          />
+        </span>
+        <span
+          class="ql-formats"
+        >
+          <button
+            class="ql-link"
+            type="button"
+          />
+        </span>
+      </div>
+    </div>
+  </div>
+   
+  <div
+    class="lxp-text_editor__footer"
+  >
+    <!---->
+     
+    <div
+      class="lxp-editor__footer--limit"
+    >
+      
+      0/100
+    
+    </div>
+  </div>
+</div>
+`;

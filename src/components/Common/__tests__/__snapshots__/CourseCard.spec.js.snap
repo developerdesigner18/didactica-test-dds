@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CourseCard.vue render when created  1`] = `
+<div
+  class="lxp-course-card"
+  title="Card Title"
+>
+  <div
+    class="lxp-course-card--div"
+  >
+    <div
+      class="lxp-course-card__img"
+    >
+      <img
+        alt="course image"
+        class="lxp-cc__img"
+        src="https://files.lxp.academy.who.int/didactica/assets/images/course-card/course-illustration.svg"
+      />
+        
+      <!---->
+    </div>
+     
+    <div
+      class="lxp-course-card__body"
+    >
+      <div
+        class="lxp-course-card__content"
+      >
+        <div
+          class="lxp-course-card__sub-title"
+        >
+          
+      Subtitle
+    
+        </div>
+         
+        <div
+          class="lxp-course-card__title"
+        >
+          Card Title
+        </div>
+      </div>
+    </div>
+     
+    <div
+      class="lxp-course-card__footer"
+    />
+  </div>
+</div>
+`;

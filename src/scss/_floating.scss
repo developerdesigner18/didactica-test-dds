@@ -1,0 +1,193 @@
+// sample html(input)
+// <div class="form-floating">
+// 	<div class="form-floating__append"></div>
+// 	<div class="form-floating__div">
+// 		<input id="input"/>
+// 		<label for="input"></label>
+// 	</div>
+// 	<div class="form-floating__prepend"></div>
+// </div>
+
+// scss for floating label
+@mixin placeholder-label {
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.4px;
+  transform: scale(0.85) translateY(-0.5rem) translateX(0.15rem);
+}
+@mixin floating-label-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.25px;
+  color: $brand-neutral-700;
+}
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 1000px $brand-primary-75 inset !important;
+  -webkit-text-fill-color: $brand-neutral-700 !important;
+  &:hover {
+    -webkit-box-shadow: 0 0 0 1000px $brand-primary-100 inset !important;
+    -webkit-text-fill-color: $brand-neutral-900 !important;
+  }
+}
+
+.form-floating {
+  display: flex;
+  align-items: center;
+  background: $brand-primary-75;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  .form-floating__div {
+    position: relative;
+    width: 100%;
+  }
+  &.form-floating--hover {
+    background: $brand-primary-100;
+    .form-control {
+      color: $brand-neutral-900;
+      background: inherit;
+    }
+  }
+  &.form-floating--focus {
+    border: 1px solid $brand-primary;
+    .form-control {
+      box-shadow: none;
+    }
+  }
+  &.form-floating--no-label {
+    .form-control {
+      height: auto;
+      padding: 8px !important;
+      @include label-large;
+    }
+  }
+  .form-control {
+    height: calc(3.5rem + 2px);
+    padding: 1rem;
+    border: none;
+    background: $brand-primary-75;
+    border-radius: 8px;
+    @include floating-label-text;
+
+    &::-moz-placeholder {
+      color: transparent;
+    }
+    &::placeholder {
+      color: transparent;
+    }
+    &:not(:-moz-placeholder-shown) {
+      padding-top: 1.625rem;
+      padding-bottom: 0.625rem;
+      ~ {
+        label {
+          @include placeholder-label;
+        }
+      }
+    }
+    &:focus {
+      padding-top: 1.625rem;
+      padding-bottom: 0.625rem;
+      ~ {
+        label {
+          @include placeholder-label;
+        }
+      }
+    }
+    &:not(:placeholder-shown) {
+      padding-top: 1.625rem;
+      padding-bottom: 0.625rem;
+      ~ {
+        label {
+          @include placeholder-label;
+        }
+      }
+    }
+    &:-webkit-autofill {
+      padding-top: 1.625rem;
+      padding-bottom: 0.625rem;
+      ~ {
+        label {
+          @include placeholder-label;
+        }
+      }
+    }
+  }
+  .lx-select__div {
+    &.lx-select__label--show {
+      .lx-select__label {
+        display: flex;
+      }
+    }
+    .lx-select__dropdown {
+      height: calc(3.5rem + 2px);
+      line-height: 1.25;
+      padding-top: 1.625rem;
+      padding-bottom: 0.625rem;
+    }
+    .lx-select__label {
+      @include placeholder-label;
+      display: none;
+    }
+  }
+  label {
+    position: absolute;
+    top: 15px;
+    left: 14px;
+    width: 100%;
+    pointer-events: none;
+    border: 1px solid transparent;
+    transform-origin: 0 0;
+    transition: opacity 0.1s ease-in-out, transform 0.1s ease-in-out;
+    text-align: left;
+    @include floating-label-text;
+  }
+}
+
+// rtl alignment
+[dir="rtl"] {
+  .form-floating {
+    label {
+      right: 14px;
+      left: auto;
+      text-align: right;
+    }
+    .form-control {
+      &:not(:-moz-placeholder-shown) {
+        ~ {
+          label {
+            transform: scale(0.85) translateY(-0.5rem) translateX(2.2rem);
+          }
+        }
+      }
+      &:focus {
+        ~ {
+          label {
+            transform: scale(0.85) translateY(-0.5rem) translateX(2.2rem);
+          }
+        }
+      }
+      &:not(:placeholder-shown) {
+        ~ {
+          label {
+            transform: scale(0.85) translateY(-0.5rem) translateX(2.2rem);
+          }
+        }
+      }
+      &:-webkit-autofill {
+        ~ {
+          label {
+            transform: scale(0.85) translateY(-0.5rem) translateX(2.2rem);
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .form-floating {
+    > label {
+      transition: none;
+    }
+  }
+}

@@ -1,0 +1,107 @@
+// label
+@mixin label-large($font-color: $brand-neutral-700, $font-weight: 400) {
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.1px;
+  font-weight: $font-weight;
+  color: $font-color;
+}
+
+@mixin label-medium($font-weight: 400) {
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.5px;
+  font-weight: $font-weight;
+}
+
+@mixin label-small($font-weight: 500) {
+  font-size: 11px;
+  line-height: 16px;
+  letter-spacing: 0.5px;
+  font-weight: $font-weight;
+}
+@mixin label-extra-small($font-weight: 400) {
+  font-size: 9px;
+  font-weight: $font-weight;
+  line-height: 13.5px;
+  letter-spacing: 0.1px;
+}
+//title
+@mixin title($font-weight: 700) {
+  font-size: 32px;
+  font-weight: $font-weight;
+  line-height: 40px;
+  letter-spacing: 0.08px;
+}
+// subtitle
+@mixin subtitle-large($color: $brand-neutral-700) {
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: 0.25px;
+  font-weight: 500;
+  color: $color;
+}
+
+@mixin subtitle-regular($font-weight: 500) {
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.15px;
+  font-weight: $font-weight;
+}
+
+// body
+@mixin body-regular($font-weight: 400, $font-color: $brand-neutral-700) {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.25px;
+  font-weight: $font-weight;
+  color: $font-color;
+}
+
+@mixin body-medium {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.25px;
+}
+// headings
+@mixin h3 {
+  font-size: 36px;
+  line-height: 43px;
+  letter-spacing: 0px;
+  font-weight: 400;
+  color: $brand-public-primary;
+}
+@mixin h6 {
+  font-size: 24px;
+  line-height: 28.8px;
+  letter-spacing: 0px;
+  font-weight: 400;
+}
+
+// button styles
+@mixin button-large {
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: 500;
+  letter-spacing: 1.25px;
+}
+@mixin button-medium {
+  font-size: 18px;
+  line-height: 21.6px;
+  font-weight: 500;
+  letter-spacing: 1.25px;
+}
+@mixin button-small {
+  font-size: 16px;
+  line-height: 19.2px;
+  font-weight: 500;
+  letter-spacing: 1.25px;
+}
+
+// error message
+@mixin error-text {
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.2px;
+}

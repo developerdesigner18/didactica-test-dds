@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button.vue render when created  1`] = `
+<button
+  class="btn btn-primary btn-sm lxp-button"
+  type="button"
+/>
+`;

@@ -1,0 +1,136 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dropdown.vue render when created  1`] = `
+<div
+  class=""
+>
+  <div
+    class="lx-select-dd"
+  >
+    <div
+      class="lx-select__div lx-select__label--show"
+    >
+      <label
+        class="lx-select__label"
+      >
+        Select
+      </label>
+       
+      <div
+        class="dropdown b-dropdown lx-select__dropdown btn-group"
+      >
+        <!---->
+        <button
+          aria-expanded="false"
+          aria-haspopup="menu"
+          class="btn dropdown-toggle btn-secondary btn-sm dropdown-toggle-no-caret"
+          type="button"
+        >
+          <!---->
+           
+          <div
+            class="lx-select__dd--div lx-select__dd--div__label"
+          >
+            <p
+              class="placeholder"
+            >
+              
+              Select
+            
+            </p>
+             
+            <span
+              class="ob-dd__icon"
+            >
+              <img
+                align="right"
+                alt="arrow"
+                loading="lazy"
+                src="https://files.lxp.academy.who.int/didactica/assets/images/learning-space/main/expand.svg"
+              />
+            </span>
+          </div>
+           
+          <!---->
+        </button>
+        <ul
+          class="dropdown-menu"
+          role="menu"
+          tabindex="-1"
+        >
+           
+          <li
+            class=""
+            role="presentation"
+          >
+            <a
+              class="dropdown-item"
+              href="javascript:;"
+              role="menuitem"
+              target="_self"
+            >
+              <!---->
+               
+              <span
+                class=""
+              >
+                apple
+              </span>
+               
+              <!---->
+            </a>
+          </li>
+          <li
+            class=""
+            role="presentation"
+          >
+            <a
+              class="dropdown-item"
+              href="javascript:;"
+              role="menuitem"
+              target="_self"
+            >
+              <!---->
+               
+              <span
+                class=""
+              >
+                orange
+              </span>
+               
+              <!---->
+            </a>
+          </li>
+          <li
+            class=""
+            role="presentation"
+          >
+            <a
+              class="dropdown-item"
+              href="javascript:;"
+              role="menuitem"
+              target="_self"
+            >
+              <!---->
+               
+              <span
+                class=""
+              >
+                banana
+              </span>
+               
+              <!---->
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+   
+  <div
+    class="lxp-select__footer"
+  >
+    <!---->
+  </div>
+</div>
+`;

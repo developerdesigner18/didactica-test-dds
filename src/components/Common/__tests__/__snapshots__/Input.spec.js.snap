@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input.vue render when created  1`] = `
+<div
+  class="lxp-input"
+>
+  <div
+    class="form-floating"
+  >
+    <!---->
+     
+    <div
+      class="form-floating__div"
+    >
+      <input
+        class="form-control"
+        id="floatingInput"
+        placeholder="Placeholder"
+        type="text"
+      />
+       
+      <label
+        for="floatingInput"
+      >
+        Input label
+      </label>
+    </div>
+     
+    <!---->
+  </div>
+   
+  <div
+    class="lxp-input__footer"
+  >
+    <!---->
+     
+    <!---->
+  </div>
+</div>
+`;

@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="89" failures="0" time="18.224">
+  <testsuite name="Table.vue" errors="0" failures="0" skipped="0" timestamp="2025-04-15T09:28:07" time="4.885" tests="6">
+    <testcase classname="Table.vue render when created " name="Table.vue render when created " time="0.074">
+    </testcase>
+    <testcase classname="Table.vue Props should show the sort based on tableHeader `sortable` prop" name="Table.vue Props should show the sort based on tableHeader `sortable` prop" time="0.074">
+    </testcase>
+    <testcase classname="Table.vue Props should update the variant based on prop" name="Table.vue Props should update the variant based on prop" time="0.051">
+    </testcase>
+    <testcase classname="Table.vue Props should update the checkbox when `selectable` is true" name="Table.vue Props should update the checkbox when `selectable` is true" time="0.097">
+    </testcase>
+    <testcase classname="Table.vue Props should show pagination when `hasPagination` is true" name="Table.vue Props should show pagination when `hasPagination` is true" time="0.057">
+    </testcase>
+    <testcase classname="Table.vue Events should emit `sort` when sort button is clicked" name="Table.vue Events should emit `sort` when sort button is clicked" time="0.02">
+    </testcase>
+  </testsuite>
+  <testsuite name="AwardPreview.vue" errors="0" failures="0" skipped="0" timestamp="2025-04-15T09:28:07" time="4.681" tests="3">
+    <testcase classname="AwardPreview.vue renders when created" name="AwardPreview.vue renders when created" time="0.141">
+    </testcase>
+    <testcase classname="AwardPreview.vue renders all props correctly" name="AwardPreview.vue renders all props correctly" time="0.031">
+    </testcase>
+    <testcase classname="AwardPreview.vue renders Accordion component with correct props" name="AwardPreview.vue renders Accordion component with correct props" time="0.034">
+    </testcase>
+  </testsuite>
+  <testsuite name="Accordion.vue" errors="0" failures="0" skipped="0" timestamp="2025-04-15T09:28:07" time="4.998" tests="4">
+    <testcase classname="Accordion.vue renders when created" name="Accordion.vue renders when created" time="0.037">
+    </testcase>
+    <testcase classname="Accordion.vue Props should render all items passed as props" name="Accordion.vue Props should render all items passed as props" time="0.028">
+    </testcase>
+    <testcase classname="Accordion.vue Props should apply the correct variant class" name="Accordion.vue Props should apply the correct variant class" time="0.008">
+    </testcase>
+    <testcase classname="Accordion.vue Functionality should toggle item content on click" name="Accordion.vue Functionality should toggle item content on click" time="0.023">
+    </testcase>
+  </testsuite>
+  <testsuite name="Breadcrumb.vue" errors="0" failures="0" skipped="0" timestamp="2025-04-15T09:28:07" time="5.18" tests="6">
+    <testcase classname="Breadcrumb.vue renders correctly when created" name="Breadcrumb.vue renders correctly when created" time="0.052">
+    </testcase>
+    <testcase classname="Breadcrumb.vue renders the correct number of breadcrumb items" name="Breadcrumb.vue renders the correct number of breadcrumb items" time="0.03">
+    </testcase>
+    <testcase classname="Breadcrumb.vue should emit `click` when breadcrumb link is clicked" name="Breadcrumb.vue should emit `click` when breadcrumb link is clicked" time="0.021">
+    </testcase>
+    <testcase classname="Breadcrumb.vue applies the &apos;active&apos; class to the active breadcrumb item" name="Breadcrumb.vue applies the &apos;active&apos; class to the active breadcrumb item" time="0.013">
+    </testcase>
+    <testcase classname="Breadcrumb.vue displays the correct text for each breadcrumb item" name="Breadcrumb.vue displays the correct text for each breadcrumb item" time="0.015">
+    </testcase>
+    <testcase classname="Breadcrumb.vue displays the correct icon for each breadcrumb item" name="Breadcrumb.vue displays the correct icon for each breadcrumb item" time="0.011">
+    </testcase>
+  </testsuite>
+  <testsuite name="UploadFile.vue" errors="0" failures="0" skipped="0" timestamp="2025-04-15T09:28:07" time="5.289" tests="5">
+    <testcase classname="UploadFile.vue renders when created" name="UploadFile.vue renders when created" time="0.027">
+    </testcase>
+    <testcase classname="UploadFile.vue Props should update id based on prop" name="UploadFile.vue Props should update id based on prop" time="0.03">
+    </testcase>
+    <testcase classname="UploadFile.vue Events should render the component correctly" name="UploadFile.vue Events should render the component correctly" time="0.05">
+    </testcase>
+    <testcase classname="UploadFile.vue Events should upload a file successfully" name="UploadFile.vue Events should upload a file successfully" time="0.013">
+    </testcase>
+    <testcase classname="UploadFile.vue Events should handle error when uploading a file" name="UploadFile.vue Events should handle error when uploading a file" time="0.015">
+    </testcase>
+  </testsuite>
+  <testsuite name="StructuredList.vue" errors="0" failures="0" skipped="0" timestamp="2025-04-15T09:28:07" time="5.308" tests="4">
+    <testcase classname="StructuredList.vue render when created " name="StructuredList.vue render when created " time="0.82">
+    </testcase>
+    <testcase classname="StructuredList.vue Props should contain a list with draggable icon" name="StructuredList.vue Props should contain a list with draggable icon" time="0.033">
+    </testcase>
+    <testcase classname="StructuredList.vue Events should emit an event when an item is dragged" name="StructuredList.vue Events should emit an event when an item is dragged" time="0.023">
+    </testcase>
+    <testcase classname="StructuredList.vue Data should have correct data when created" name="StructuredList.vue Data should have correct data when created" time="0.022">
+    </testcase>
+  </testsuite>
+  <testsuite name="DragDrop.vue" errors="0" failures="0" skipped="0" timestamp="2025-04-15T09:28:07" time="5.378" tests="2">
+    <testcase classname="DragDrop.vue render when created " name="DragDrop.vue render when created " time="0.035">
+    </testcase>
+    <testcase classname="DragDrop.vue Props should add error class when `showError` is true" name="DragDrop.vue Props should add error class when `showError` is true" time="0.051">
+    </testcase>
+  </testsuite>
+  <testsuite name="TextEditor.vue" errors="0" failures="0" skipped="0" timestamp="2025-04-15T09:28:13" time="0.651" tests="4">
+    <testcase classname="TextEditor.vue renders when created" name="TextEditor.vue renders when created" time="0.12">
+    </testcase>
+    <testcase classname="TextEditor.vue Props renders when created" name="TextEditor.vue Props renders when created" time="0.068">
+    </testcase>
+    <testcase classname="TextEditor.vue Props should update id based on prop" name="TextEditor.vue Props should update id based on prop" time="0.066">
+    </testcase>
+    <testcase classname="TextEditor.vue Props should display support text when provided" name="TextEditor.vue Props should display support text when provided" time="0.086">
+    </testcase>
+  </testsuite>
+  <testsuite name="Progress.vue" errors="0" failures="0" skipped="0" timestamp="2025-04-15T09:28:13" time="0.734" tests="4">
+    <testcase classname="Progress.vue render when created " name="Progress.vue render when created " time="0.018">
+    </testcase>
+    <testcase classname="Progress.vue Props should update progress variant based on value" name="Progress.vue Props should update progress variant based on value" time="0.034">
+    </testcase>
+    <testcase classname="Progress.vue Props should show error state when `hasError` is set to be true " name="Progress.vue Props should show error state when `hasError` is set to be true " time="0.036">
+    </testcase>
+    <testcase classname="Progress.vue Props should animate when `animated` is true" name="Progress.vue Props should animate when `animated` is true" time="0.04">
+    </testcase>
+  </testsuite>
+  <testsuite name="Modal.vue" errors="0" failures="0" skipped="0" timestamp="2025-04-15T09:28:13" time="0.785" tests="3">
+    <testcase classname="Modal.vue render when created " name="Modal.vue render when created " time="0.021">
+    </testcase>
+    <testcase classname="Modal.vue Props should hide header and footer when `hideHeader` and `hideFooter` is present" name="Modal.vue Props should hide header and footer when `hideHeader` and `hideFooter` is present" time="0.029">
+    </testcase>
+    <testcase classname="Modal.vue Events should emit `modal-close` when close is clicked" name="Modal.vue Events should emit `modal-close` when close is clicked" time="0.018">
+    </testcase>
+  </testsuite>
+  <testsuite name="Button.vue" errors="0" failures="0" skipped="0" timestamp="2025-04-15T09:28:13" time="0.726" tests="5">
+    <testcase classname="Button.vue render when created " name="Button.vue render when created " time="0.01">
+    </testcase>
+    <testcase classname="Button.vue Props should update button variant based on prop" name="Button.vue Props should update button variant based on prop" time="0.027">
+    </testcase>
+    <testcase classname="Button.vue Props should update the button round" name="Button.vue Props should update the button round" time="0.028">
+    </testcase>
+    <testcase classname="Button.vue Props should update button with elevated styles" name="Button.vue Props should update button with elevated styles" time="0.023">
+    </testcase>
+    <testcase classname="Button.vue Events should emit `click` when button is clicked is clicked" name="Button.vue Events should emit `click` when button is clicked is clicked" time="0.005">
+    </testcase>
+  </testsuite>
+  <testsuite name="Checkbox.vue" errors="0" failures="0" skipped="0" timestamp="2025-04-15T09:28:13" time="0.822" tests="6">
+    <testcase classname="Checkbox.vue render when created " name="Checkbox.vue render when created " time="0.018">
+    </testcase>
+    <testcase classname="Checkbox.vue Props should update the checkbox text based on prop" name="Checkbox.vue Props should update the checkbox text based on prop" time="0.019">
+    </testcase>
+    <testcase classname="Checkbox.vue Props should update the checkbox to disabled" name="Checkbox.vue Props should update the checkbox to disabled" time="0.034">
+    </testcase>
+    <testcase classname="Checkbox.vue Props should preselect the value to true" name="Checkbox.vue Props should preselect the value to true" time="0.039">
+    </testcase>
+    <testcase classname="Checkbox.vue Props should preselect  multiple values" name="Checkbox.vue Props should preselect  multiple values" time="0.037">
+    </testcase>
+    <testcase classname="Checkbox.vue Events should emit `input` when checkbox is selected" name="Checkbox.vue Events should emit `input` when checkbox is selected" time="0.025">
+    </testcase>
+  </testsuite>
+  <testsuite name="Alert.vue" errors="0" failures="0" skipped="0" timestamp="2025-04-15T09:28:13" time="0.856" tests="5">
+    <testcase classname="Alert.vue render when created " name="Alert.vue render when created " time="0.016">
+    </testcase>
+    <testcase classname="Alert.vue Props should render the title based on prop" name="Alert.vue Props should render the title based on prop" time="0.014">
+    </testcase>
+    <testcase classname="Alert.vue Props should render the subtitle based on prop" name="Alert.vue Props should render the subtitle based on prop" time="0.011">
+    </testcase>
+    <testcase classname="Alert.vue Props should render the image" name="Alert.vue Props should render the image" time="0.066">
+    </testcase>
+    <testcase classname="Alert.vue Props should update based on the variant" name="Alert.vue Props should update based on the variant" time="0.044">
+    </testcase>
+  </testsuite>
+  <testsuite name="Menu.vue" errors="0" failures="0" skipped="0" timestamp="2025-04-15T09:28:13" time="0.919" tests="3">
+    <testcase classname="Menu.vue render when created " name="Menu.vue render when created " time="0.028">
+    </testcase>
+    <testcase classname="Menu.vue Props should update id based on prop" name="Menu.vue Props should update id based on prop" time="0.089">
+    </testcase>
+    <testcase classname="Menu.vue Events should emit `select` when button is clicked is clicked" name="Menu.vue Events should emit `select` when button is clicked is clicked" time="0.061">
+    </testcase>
+  </testsuite>
+  <testsuite name="CourseCard.vue" errors="0" failures="0" skipped="0" timestamp="2025-04-15T09:28:13" time="0.691" tests="3">
+    <testcase classname="CourseCard.vue render when created " name="CourseCard.vue render when created " time="0.02">
+    </testcase>
+    <testcase classname="CourseCard.vue Props should show tag content if `tagText` is present" name="CourseCard.vue Props should show tag content if `tagText` is present" time="0.042">
+    </testcase>
+    <testcase classname="CourseCard.vue Events should emit `card-click` when card is clicked" name="CourseCard.vue Events should emit `card-click` when card is clicked" time="0.019">
+    </testcase>
+  </testsuite>
+  <testsuite name="PillBadges.vue" errors="0" failures="0" skipped="0" timestamp="2025-04-15T09:28:13" time="0.703" tests="3">
+    <testcase classname="PillBadges.vue should render when created" name="PillBadges.vue should render when created" time="0.005">
+    </testcase>
+    <testcase classname="PillBadges.vue Props should update id based on prop" name="PillBadges.vue Props should update id based on prop" time="0.029">
+    </testcase>
+    <testcase classname="PillBadges.vue Events should emit `click` when badge is clicked" name="PillBadges.vue Events should emit `click` when badge is clicked" time="0.006">
+    </testcase>
+  </testsuite>
+  <testsuite name="DatePicker.vue" errors="0" failures="0" skipped="0" timestamp="2025-04-15T09:28:13" time="0.847" tests="3">
+    <testcase classname="DatePicker.vue sets default title if not provided" name="DatePicker.vue sets default title if not provided" time="0.144">
+    </testcase>
+    <testcase classname="DatePicker.vue correctly sets the default class name" name="DatePicker.vue correctly sets the default class name" time="0.023">
+    </testcase>
+    <testcase classname="DatePicker.vue emits date-Selected event when a date is selected" name="DatePicker.vue emits date-Selected event when a date is selected" time="0.033">
+    </testcase>
+  </testsuite>
+  <testsuite name="Textarea.vue" errors="0" failures="0" skipped="0" timestamp="2025-04-15T09:28:14" time="0.731" tests="3">
+    <testcase classname="Textarea.vue render when created " name="Textarea.vue render when created " time="0.023">
+    </testcase>
+    <testcase classname="Textarea.vue Props should show text limit and supporting text" name="Textarea.vue Props should show text limit and supporting text" time="0.018">
+    </testcase>
+    <testcase classname="Textarea.vue Props should show border when `hasError` is set to be true " name="Textarea.vue Props should show border when `hasError` is set to be true " time="0.049">
+    </testcase>
+  </testsuite>
+  <testsuite name="Input.vue" errors="0" failures="0" skipped="0" timestamp="2025-04-15T09:28:14" time="0.432" tests="3">
+    <testcase classname="Input.vue render when created " name="Input.vue render when created " time="0.041">
+    </testcase>
+    <testcase classname="Input.vue Props should show text limit and supporting text" name="Input.vue Props should show text limit and supporting text" time="0.031">
+    </testcase>
+    <testcase classname="Input.vue Props should show border when `hasError` is set to be true " name="Input.vue Props should show border when `hasError` is set to be true " time="0.031">
+    </testcase>
+  </testsuite>
+  <testsuite name="ToggleSwitch.vue" errors="0" failures="0" skipped="0" timestamp="2025-04-15T09:28:14" time="0.379" tests="3">
+    <testcase classname="ToggleSwitch.vue render when created " name="ToggleSwitch.vue render when created " time="0.007">
+    </testcase>
+    <testcase classname="ToggleSwitch.vue Props should update based on `toggleState`" name="ToggleSwitch.vue Props should update based on `toggleState`" time="0.032">
+    </testcase>
+    <testcase classname="ToggleSwitch.vue Props should update based on `disabled` prop" name="ToggleSwitch.vue Props should update based on `disabled` prop" time="0.031">
+    </testcase>
+  </testsuite>
+  <testsuite name="Dropdown.vue" errors="0" failures="0" skipped="0" timestamp="2025-04-15T09:28:14" time="0.642" tests="4">
+    <testcase classname="Dropdown.vue render when created " name="Dropdown.vue render when created " time="0.025">
+    </testcase>
+    <testcase classname="Dropdown.vue Props should floating styles for dropdown" name="Dropdown.vue Props should floating styles for dropdown" time="0.039">
+    </testcase>
+    <testcase classname="Dropdown.vue Props should add error class when `showError` is true" name="Dropdown.vue Props should add error class when `showError` is true" time="0.039">
+    </testcase>
+    <testcase classname="Dropdown.vue Events should emit `click` when dropdown item is clicked" name="Dropdown.vue Events should emit `click` when dropdown item is clicked" time="0.022">
+    </testcase>
+  </testsuite>
+  <testsuite name="Radio.vue" errors="0" failures="0" skipped="0" timestamp="2025-04-15T09:28:14" time="0.748" tests="7">
+    <testcase classname="Radio.vue render when created " name="Radio.vue render when created " time="0.006">
+    </testcase>
+    <testcase classname="Radio.vue Props should update the radio text based on prop" name="Radio.vue Props should update the radio text based on prop" time="0.019">
+    </testcase>
+    <testcase classname="Radio.vue Props should update styles based on the variant" name="Radio.vue Props should update styles based on the variant" time="0.034">
+    </testcase>
+    <testcase classname="Radio.vue Props should update the radio to disabled" name="Radio.vue Props should update the radio to disabled" time="0.033">
+    </testcase>
+    <testcase classname="Radio.vue Props should preselect the value to true" name="Radio.vue Props should preselect the value to true" time="0.032">
+    </testcase>
+    <testcase classname="Radio.vue Props should show the list of radio buttons" name="Radio.vue Props should show the list of radio buttons" time="0.023">
+    </testcase>
+    <testcase classname="Radio.vue Events should emit `input` when radio is selected" name="Radio.vue Events should emit `input` when radio is selected" time="0.006">
+    </testcase>
+  </testsuite>
+</testsuites>

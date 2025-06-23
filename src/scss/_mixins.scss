@@ -1,0 +1,86 @@
+/* utility */
+/* Reference: https://css-tricks.com/line-clampin/ */
+@mixin line-clamp($lines: 1) {
+  display: -webkit-box;
+  -webkit-line-clamp: $lines;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+// https://css-tricks.com/centering-css-complete-guide/#both-horizontally-vertically
+@mixin center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+// flex-row center
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+}
+
+// flex-horizontal
+@mixin flex-horizontal-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+//flex-column
+@mixin flex-column-align-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@mixin flex-column-align-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+// flex-horizontal-space-between
+@mixin horizontal-space-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@mixin text-ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+}
+@mixin scroll-bar {
+  ::-webkit-scrollbar {
+    width: 12px;
+  }
+  ::-webkit-scrollbar-thumb {
+    border: 4px solid rgba(0, 0, 0, 0);
+    background-clip: padding-box;
+    border-radius: 9999px;
+    background-color: $brand-neutral-300;
+  }
+  ::-webkit-scrollbar-track {
+    margin-block: 5px;
+    background: $brand-neutral-75;
+    border: 4px solid white;
+    border-radius: 9999px;
+  }
+}
+@mixin modal-scroll-bar {
+  ::-webkit-scrollbar {
+    width: 4px;
+    height: auto;
+  }
+  ::-webkit-scrollbar-track {
+    background: $brand-neutral-75;
+    border-radius: 0px 0px 8px 8px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: $brand-neutral-300;
+    border-radius: 8px 8px 0px 0px;
+  }
+}

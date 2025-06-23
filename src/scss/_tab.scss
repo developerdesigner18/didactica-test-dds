@@ -1,0 +1,100 @@
+.tabs {
+  .lxp-tab__nav-wrapper {
+    .lxp-tab__nav {
+      border: 0;
+      .nav-link {
+        @include body-regular(500);
+        padding: 8px 16px;
+        display: flex;
+        align-items: center;
+        border: none;
+        border-radius: 8px;
+        .lxp-menu--text {
+          color: $brand-neutral-700;
+        }
+        &:hover {
+          background-color: $brand-primary-100;
+          border-radius: 8px;
+        }
+        &:focus {
+          background-color: $brand-primary-100;
+        }
+        &.active {
+          color: $brand-primary-400;
+          background: $brand-primary-100;
+          mix-blend-mode: normal;
+          border-radius: 8px;
+          border: none;
+          .b-dropdown .dropdown-toggle {
+            color: $brand-primary-400;
+          }
+          .lxp-menu--text {
+            color: $brand-primary-400;
+          }
+          .lxp-menu--img {
+            filter: brightness(0) saturate(100%) invert(39%) sepia(72%)
+              saturate(4645%) hue-rotate(196deg) brightness(103%) contrast(102%) !important;
+          }
+        }
+        .lxp-tab__nav--tag {
+          padding: 2px 4px;
+          border-radius: 4px;
+          background: $brand-primary;
+          color: $brand-primary-50;
+          display: inline-flex;
+          margin-left: 8px;
+          @include label-medium(500);
+        }
+        .b-dropdown {
+          .dropdown-toggle {
+            padding: 0;
+            background: transparent;
+            border: none;
+            box-shadow: none;
+            @include body-regular(500);
+          }
+        }
+      }
+    }
+  }
+  .lxp-tab__tab-content {
+    padding: 32px 0;
+    .tab-pane {
+      margin: 10px 0;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .tabs {
+    .lxp-tab__nav-wrapper {
+      .lxp-tab__nav {
+        &.mobile__overflow--scroll {
+          flex-wrap: nowrap;
+          overflow-x: auto;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 690px) {
+  .nav-link {
+    margin-bottom: 4px !important;
+  }
+}
+
+[dir="rtl"] {
+  .tabs {
+    .lxp-tab__nav-wrapper {
+      .lxp-tab__nav {
+        padding-right: 0;
+        .nav-link {
+          .lxp-tab__nav--tag {
+            margin: 0 8px 0 0;
+          }
+        }
+      }
+    }
+  }
+}

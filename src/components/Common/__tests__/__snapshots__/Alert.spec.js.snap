@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Alert.vue render when created  1`] = `
+<div
+  class="lxp-alert"
+>
+  <transition-stub
+    css="true"
+    enteractiveclass=""
+    enterclass=""
+    entertoclass="show"
+    leaveactiveclass=""
+    leaveclass="show"
+    leavetoclass=""
+    name=""
+  >
+    <div
+      aria-atomic="true"
+      aria-live="polite"
+      class="alert alert-dismissible alert-primary"
+      role="alert"
+    >
+      <button
+        aria-label="Close"
+        class="close"
+        type="button"
+      >
+        <img
+          alt="close"
+          loading="lazy"
+          src="https://files.lxp.academy.who.int/didactica/assets/images/modal/close.svg"
+        />
+      </button>
+       
+      <div
+        class="lxp-alert__content"
+      >
+        <!---->
+         
+        <div
+          class="lxp-alert__content--right"
+        >
+          <h5>
+            Welcome New
+          </h5>
+           
+          <p>
+            this is a sample text
+          </p>
+        </div>
+      </div>
+    </div>
+  </transition-stub>
+</div>
+`;

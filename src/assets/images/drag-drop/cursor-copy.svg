@@ -1,0 +1,29 @@
+<svg width="19" height="32" viewBox="0 0 19 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="bundle os x cursors">
+<g id="Made with &#240;&#159;&#146;&#149;by Azendoo design team   @azendoo">
+<g id="copy">
+<g id="cursor">
+<mask id="mask0_16124_10042" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="1" y="14" width="18" height="18">
+<g id="mask 3">
+<path id="Vector" d="M1 23C1 27.97 5.03 32 10 32C14.97 32 19 27.97 19 23C19 18.029 14.97 14 10 14C5.03 14 1 18.029 1 23Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask0_16124_10042)">
+<path id="Vector_2" d="M1 23C1 27.97 5.03 32 10 32C14.97 32 19 27.97 19 23C19 18.029 14.97 14 10 14C5.03 14 1 18.029 1 23Z" fill="url(#paint0_linear_16124_10042)"/>
+<path id="Vector_3" fill-rule="evenodd" clip-rule="evenodd" d="M14 22H11V19C11 18.448 10.552 18 10 18C9.448 18 9 18.448 9 19V22H6C5.448 22 5 22.448 5 23C5 23.552 5.448 24 6 24H9V27C9 27.552 9.448 28 10 28C10.552 28 11 27.552 11 27V24H14C14.552 24 15 23.552 15 23C15 22.448 14.552 22 14 22Z" fill="white"/>
+</g>
+</g>
+<g id="cursor_2">
+<path id="Vector_4" fill-rule="evenodd" clip-rule="evenodd" d="M0 16.4217V0.406738L11.591 12.0257H4.55L4.399 12.1497L0 16.4217Z" fill="white"/>
+<path id="Vector_5" fill-rule="evenodd" clip-rule="evenodd" d="M1 2.81396V14.002L3.969 11.136L4.129 10.997H9.165L1 2.81396Z" fill="black"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_16124_10042" x1="10" y1="14" x2="10" y2="32" gradientUnits="userSpaceOnUse">
+<stop stop-color="#5ECE3D"/>
+<stop offset="1" stop-color="#188D18"/>
+</linearGradient>
+</defs>
+</svg>

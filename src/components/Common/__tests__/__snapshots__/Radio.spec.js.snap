@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Radio.vue render when created  1`] = `
+<div
+  class="lxp-radio lxp-radio__primary"
+>
+  <div
+    class="custom-control custom-radio"
+  >
+    <input
+      class="custom-control-input"
+      id="radio-test"
+      name="radio-options"
+      type="radio"
+      value="orange"
+    />
+    <label
+      class="custom-control-label"
+      for="radio-test"
+    >
+      
+    Orange
+  
+    </label>
+  </div>
+</div>
+`;

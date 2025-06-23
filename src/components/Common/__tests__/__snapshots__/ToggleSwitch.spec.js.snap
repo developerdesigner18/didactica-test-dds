@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ToggleSwitch.vue render when created  1`] = `
+<div
+  class="lxp-toggle"
+>
+  <input
+    id="switch"
+    type="checkbox"
+  />
+   
+  <label
+    for="switch"
+  >
+    Toggle
+  </label>
+</div>
+`;

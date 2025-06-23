@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StructuredList.vue render when created  1`] = `
+<div
+  class="lxp-structured-list"
+>
+  <div>
+    <transition-group-stub
+      name="list"
+    >
+      <div
+        class="lxp-sl__list--item"
+      >
+        <span>
+          <div
+            class="lxp-sl__list--item__handler"
+          >
+            <img
+              alt="drag"
+              id="imgHandle-0"
+              loading="lazy"
+              src="https://files.lxp.academy.who.int/didactica/assets/images/learning-space/main/dragging-indicator.svg"
+            />
+             
+            <!---->
+             
+            <span
+              class="lxp-sl__list--name"
+            >
+              First
+            </span>
+          </div>
+        </span>
+      </div>
+      <div
+        class="lxp-sl__list--item"
+      >
+        <span>
+          <div
+            class="lxp-sl__list--item__handler"
+          >
+            <img
+              alt="drag"
+              id="imgHandle-1"
+              loading="lazy"
+              src="https://files.lxp.academy.who.int/didactica/assets/images/learning-space/main/dragging-indicator.svg"
+            />
+             
+            <!---->
+             
+            <span
+              class="lxp-sl__list--name"
+            >
+              Second
+            </span>
+          </div>
+        </span>
+      </div>
+      <div
+        class="lxp-sl__list--item"
+      >
+        <span>
+          <div
+            class="lxp-sl__list--item__handler"
+          >
+            <img
+              alt="drag"
+              id="imgHandle-2"
+              loading="lazy"
+              src="https://files.lxp.academy.who.int/didactica/assets/images/learning-space/main/dragging-indicator.svg"
+            />
+             
+            <!---->
+             
+            <span
+              class="lxp-sl__list--name"
+            >
+              Third
+            </span>
+          </div>
+        </span>
+      </div>
+    </transition-group-stub>
+  </div>
+</div>
+`;

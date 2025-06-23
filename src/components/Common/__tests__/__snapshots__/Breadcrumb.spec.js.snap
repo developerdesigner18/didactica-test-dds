@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Breadcrumb.vue renders correctly when created 1`] = `
+<div
+  class="lxp-breadcrumb"
+>
+  <ol
+    class="breadcrumb"
+  >
+    <li
+      class="breadcrumb-item"
+    >
+      <a
+        class=""
+        href="#"
+        target="_self"
+      >
+        <img
+          alt="breadcrumb"
+          class="bc__custom-icon"
+          loading="lazy"
+          src="https://files.lxp.academy.who.int/didactica/assets/images/drag-drop/upload-grey.svg"
+        />
+        
+      Admin
+    
+      </a>
+    </li>
+    <li
+      class="breadcrumb-item"
+    >
+      <a
+        class=""
+        href="#"
+        target="_self"
+      >
+        <!---->
+        
+      Manage
+    
+      </a>
+    </li>
+    <li
+      class="breadcrumb-item active"
+    >
+      <a
+        class=""
+        href="#"
+        target="_self"
+      >
+        <!---->
+        
+      Library
+    
+      </a>
+    </li>
+  </ol>
+</div>
+`;

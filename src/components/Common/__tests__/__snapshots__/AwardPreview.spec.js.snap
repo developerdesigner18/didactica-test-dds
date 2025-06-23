@@ -1,0 +1,901 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AwardPreview.vue renders Accordion component with correct props 1`] = `
+<div
+  class="award__preview--wrapper"
+>
+  <div
+    class="title"
+  >
+    Sample Title
+  </div>
+   
+  <div
+    class="award-information"
+  >
+    <div
+      class="award-icon"
+    >
+      <img
+        alt="Sample Award Title"
+        loading="lazy"
+        src="https://whoalxppublicstorage.blob.core.windows.net/didactica/assets/images/awards/confirmation-of-participation.svg"
+      />
+    </div>
+     
+    <div
+      class="award-title"
+    >
+      
+      Sample Award Title
+    
+    </div>
+     
+    <div
+      class="presented-to"
+    >
+      Sample Presented To
+    </div>
+     
+    <div
+      class="user-name"
+    >
+      Sample User Name
+    </div>
+     
+    <div
+      class="award-description"
+    >
+      
+      Sample Award Description
+      
+      <span>
+        “Sample Title”
+      </span>
+    </div>
+     
+    <div
+      class="issued-by award-issued__by"
+    >
+      <div
+        class="issued-text"
+      >
+        <span>
+          Sample Issued By Text
+        </span>
+         
+        <span>
+          WHO Academy, UNESS
+        </span>
+      </div>
+       
+      <div
+        class="logo"
+      >
+        <div>
+          <img
+            alt="logo"
+            loading="lazy"
+            src="https://arodevelopstorage.blob.core.windows.net/openedx-extension-api/dev/issuer-logos/image002.png?se=2024-07-26T15%3A14%3A22Z&sp=r&sv=2021-08-06&sr=b&sig=yPHm%2B/QEZ4Vd30tidX1sgbQ6WLohmqe8jGTw17sL0qY%3D"
+          />
+        </div>
+        <div>
+          <img
+            alt="logo"
+            loading="lazy"
+            src="https://arodevelopstorage.blob.core.windows.net/openedx-extension-api/dev/issuer-logos/image002.png?se=2024-07-26T15%3A14%3A22Z&sp=r&sv=2021-08-06&sr=b&sig=yPHm%2B/QEZ4Vd30tidX1sgbQ6WLohmqe8jGTw17sL0qY%3D"
+          />
+        </div>
+        <div>
+          <img
+            alt="logo"
+            loading="lazy"
+            src="https://arodevelopstorage.blob.core.windows.net/openedx-extension-api/dev/issuer-logos/image002.png?se=2024-07-26T15%3A14%3A22Z&sp=r&sv=2021-08-06&sr=b&sig=yPHm%2B/QEZ4Vd30tidX1sgbQ6WLohmqe8jGTw17sL0qY%3D"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+   
+  <div
+    class="more-information"
+  >
+    <div
+      class="title"
+    >
+      Sample More Information
+    </div>
+     
+    <div
+      class="date-information"
+    >
+      <div
+        class="date-box issued-date"
+      >
+        <div
+          class="icon"
+        >
+          <img
+            alt="issued on"
+            loading="lazy"
+            src="https://whoalxppublicstorage.blob.core.windows.net/didactica/assets/images/awards/issued-on.svg"
+          />
+        </div>
+         
+        <div
+          class="date"
+        >
+          <span>
+            Issued On
+          </span>
+           
+          <span>
+            Invalid Date
+          </span>
+        </div>
+      </div>
+       
+      <div
+        class="date-box expiring-date"
+      >
+        <div
+          class="icon"
+        >
+          <img
+            alt="expiration date"
+            loading="lazy"
+            src="https://whoalxppublicstorage.blob.core.windows.net/didactica/assets/images/awards/expiring-on.svg"
+          />
+        </div>
+         
+        <div
+          class="date"
+        >
+          <span>
+            Expiring on
+          </span>
+           
+          <span>
+            11/10/2027
+          </span>
+        </div>
+      </div>
+    </div>
+     
+    <div
+      class="other-information"
+    >
+      <div
+        class="accordion-wrapper variant1"
+      >
+        <div
+          class="accordion-item"
+        >
+          <div
+            class="accordion-header"
+          >
+            <img
+              loading="lazy"
+              src="https://whoalxppublicstorage.blob.core.windows.net/didactica/assets/images/awards/arrow.svg"
+            />
+             
+            <span>
+              Admission criteria
+            </span>
+          </div>
+           
+          <!---->
+        </div>
+        <div
+          class="accordion-item"
+        >
+          <div
+            class="accordion-header"
+          >
+            <img
+              loading="lazy"
+              src="https://whoalxppublicstorage.blob.core.windows.net/didactica/assets/images/awards/arrow.svg"
+            />
+             
+            <span>
+              Course description
+            </span>
+          </div>
+           
+          <!---->
+        </div>
+        <div
+          class="accordion-item"
+        >
+          <div
+            class="accordion-header"
+          >
+            <img
+              loading="lazy"
+              src="https://whoalxppublicstorage.blob.core.windows.net/didactica/assets/images/awards/arrow.svg"
+            />
+             
+            <span>
+              Course activities
+            </span>
+          </div>
+           
+          <!---->
+        </div>
+        <div
+          class="accordion-item"
+        >
+          <div
+            class="accordion-header"
+          >
+            <img
+              loading="lazy"
+              src="https://whoalxppublicstorage.blob.core.windows.net/didactica/assets/images/awards/arrow.svg"
+            />
+             
+            <span>
+              Course outcomes
+            </span>
+          </div>
+           
+          <!---->
+        </div>
+        <div
+          class="accordion-item"
+        >
+          <div
+            class="accordion-header"
+          >
+            <img
+              loading="lazy"
+              src="https://whoalxppublicstorage.blob.core.windows.net/didactica/assets/images/awards/arrow.svg"
+            />
+             
+            <span>
+              Assessment
+            </span>
+          </div>
+           
+          <!---->
+        </div>
+        <div
+          class="accordion-item"
+        >
+          <div
+            class="accordion-header"
+          >
+            <img
+              loading="lazy"
+              src="https://whoalxppublicstorage.blob.core.windows.net/didactica/assets/images/awards/arrow.svg"
+            />
+             
+            <span>
+              Other information
+            </span>
+          </div>
+           
+          <!---->
+        </div>
+      </div>
+    </div>
+  </div>
+   
+  <div
+    class="disclaimer"
+  >
+    <div
+      class="title"
+    >
+      Sample Disclaimer Title
+    </div>
+     
+    <div
+      class="description"
+    >
+      
+      Sample Disclaimer
+    
+    </div>
+  </div>
+</div>
+`;
+
+exports[`AwardPreview.vue renders all props correctly 1`] = `
+<div
+  class="award__preview--wrapper"
+>
+  <div
+    class="title"
+  >
+    Sample Title
+  </div>
+   
+  <div
+    class="award-information"
+  >
+    <div
+      class="award-icon"
+    >
+      <img
+        alt="Sample Award Title"
+        loading="lazy"
+        src="https://whoalxppublicstorage.blob.core.windows.net/didactica/assets/images/awards/confirmation-of-participation.svg"
+      />
+    </div>
+     
+    <div
+      class="award-title"
+    >
+      
+      Sample Award Title
+    
+    </div>
+     
+    <div
+      class="presented-to"
+    >
+      Sample Presented To
+    </div>
+     
+    <div
+      class="user-name"
+    >
+      Sample User Name
+    </div>
+     
+    <div
+      class="award-description"
+    >
+      
+      Sample Award Description
+      
+      <span>
+        “Sample Title”
+      </span>
+    </div>
+     
+    <div
+      class="issued-by award-issued__by"
+    >
+      <div
+        class="issued-text"
+      >
+        <span>
+          Sample Issued By Text
+        </span>
+         
+        <span>
+          WHO Academy, UNESS
+        </span>
+      </div>
+       
+      <div
+        class="logo"
+      >
+        <div>
+          <img
+            alt="logo"
+            loading="lazy"
+            src="https://arodevelopstorage.blob.core.windows.net/openedx-extension-api/dev/issuer-logos/image002.png?se=2024-07-26T15%3A14%3A22Z&sp=r&sv=2021-08-06&sr=b&sig=yPHm%2B/QEZ4Vd30tidX1sgbQ6WLohmqe8jGTw17sL0qY%3D"
+          />
+        </div>
+        <div>
+          <img
+            alt="logo"
+            loading="lazy"
+            src="https://arodevelopstorage.blob.core.windows.net/openedx-extension-api/dev/issuer-logos/image002.png?se=2024-07-26T15%3A14%3A22Z&sp=r&sv=2021-08-06&sr=b&sig=yPHm%2B/QEZ4Vd30tidX1sgbQ6WLohmqe8jGTw17sL0qY%3D"
+          />
+        </div>
+        <div>
+          <img
+            alt="logo"
+            loading="lazy"
+            src="https://arodevelopstorage.blob.core.windows.net/openedx-extension-api/dev/issuer-logos/image002.png?se=2024-07-26T15%3A14%3A22Z&sp=r&sv=2021-08-06&sr=b&sig=yPHm%2B/QEZ4Vd30tidX1sgbQ6WLohmqe8jGTw17sL0qY%3D"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+   
+  <div
+    class="more-information"
+  >
+    <div
+      class="title"
+    >
+      Sample More Information
+    </div>
+     
+    <div
+      class="date-information"
+    >
+      <div
+        class="date-box issued-date"
+      >
+        <div
+          class="icon"
+        >
+          <img
+            alt="issued on"
+            loading="lazy"
+            src="https://whoalxppublicstorage.blob.core.windows.net/didactica/assets/images/awards/issued-on.svg"
+          />
+        </div>
+         
+        <div
+          class="date"
+        >
+          <span>
+            Issued On
+          </span>
+           
+          <span>
+            Invalid Date
+          </span>
+        </div>
+      </div>
+       
+      <div
+        class="date-box expiring-date"
+      >
+        <div
+          class="icon"
+        >
+          <img
+            alt="expiration date"
+            loading="lazy"
+            src="https://whoalxppublicstorage.blob.core.windows.net/didactica/assets/images/awards/expiring-on.svg"
+          />
+        </div>
+         
+        <div
+          class="date"
+        >
+          <span>
+            Expiring on
+          </span>
+           
+          <span>
+            11/10/2027
+          </span>
+        </div>
+      </div>
+    </div>
+     
+    <div
+      class="other-information"
+    >
+      <div
+        class="accordion-wrapper variant1"
+      >
+        <div
+          class="accordion-item"
+        >
+          <div
+            class="accordion-header"
+          >
+            <img
+              loading="lazy"
+              src="https://whoalxppublicstorage.blob.core.windows.net/didactica/assets/images/awards/arrow.svg"
+            />
+             
+            <span>
+              Admission criteria
+            </span>
+          </div>
+           
+          <!---->
+        </div>
+        <div
+          class="accordion-item"
+        >
+          <div
+            class="accordion-header"
+          >
+            <img
+              loading="lazy"
+              src="https://whoalxppublicstorage.blob.core.windows.net/didactica/assets/images/awards/arrow.svg"
+            />
+             
+            <span>
+              Course description
+            </span>
+          </div>
+           
+          <!---->
+        </div>
+        <div
+          class="accordion-item"
+        >
+          <div
+            class="accordion-header"
+          >
+            <img
+              loading="lazy"
+              src="https://whoalxppublicstorage.blob.core.windows.net/didactica/assets/images/awards/arrow.svg"
+            />
+             
+            <span>
+              Course activities
+            </span>
+          </div>
+           
+          <!---->
+        </div>
+        <div
+          class="accordion-item"
+        >
+          <div
+            class="accordion-header"
+          >
+            <img
+              loading="lazy"
+              src="https://whoalxppublicstorage.blob.core.windows.net/didactica/assets/images/awards/arrow.svg"
+            />
+             
+            <span>
+              Course outcomes
+            </span>
+          </div>
+           
+          <!---->
+        </div>
+        <div
+          class="accordion-item"
+        >
+          <div
+            class="accordion-header"
+          >
+            <img
+              loading="lazy"
+              src="https://whoalxppublicstorage.blob.core.windows.net/didactica/assets/images/awards/arrow.svg"
+            />
+             
+            <span>
+              Assessment
+            </span>
+          </div>
+           
+          <!---->
+        </div>
+        <div
+          class="accordion-item"
+        >
+          <div
+            class="accordion-header"
+          >
+            <img
+              loading="lazy"
+              src="https://whoalxppublicstorage.blob.core.windows.net/didactica/assets/images/awards/arrow.svg"
+            />
+             
+            <span>
+              Other information
+            </span>
+          </div>
+           
+          <!---->
+        </div>
+      </div>
+    </div>
+  </div>
+   
+  <div
+    class="disclaimer"
+  >
+    <div
+      class="title"
+    >
+      Sample Disclaimer Title
+    </div>
+     
+    <div
+      class="description"
+    >
+      
+      Sample Disclaimer
+    
+    </div>
+  </div>
+</div>
+`;
+
+exports[`AwardPreview.vue renders when created 1`] = `
+<div
+  class="award__preview--wrapper"
+>
+  <div
+    class="title"
+  >
+    Sample Title
+  </div>
+   
+  <div
+    class="award-information"
+  >
+    <div
+      class="award-icon"
+    >
+      <img
+        alt="Sample Award Title"
+        loading="lazy"
+        src="https://whoalxppublicstorage.blob.core.windows.net/didactica/assets/images/awards/confirmation-of-participation.svg"
+      />
+    </div>
+     
+    <div
+      class="award-title"
+    >
+      
+      Sample Award Title
+    
+    </div>
+     
+    <div
+      class="presented-to"
+    >
+      Sample Presented To
+    </div>
+     
+    <div
+      class="user-name"
+    >
+      Sample User Name
+    </div>
+     
+    <div
+      class="award-description"
+    >
+      
+      Sample Award Description
+      
+      <span>
+        “Sample Title”
+      </span>
+    </div>
+     
+    <div
+      class="issued-by award-issued__by"
+    >
+      <div
+        class="issued-text"
+      >
+        <span>
+          Sample Issued By Text
+        </span>
+         
+        <span>
+          WHO Academy, UNESS
+        </span>
+      </div>
+       
+      <div
+        class="logo"
+      >
+        <div>
+          <img
+            alt="logo"
+            loading="lazy"
+            src="https://arodevelopstorage.blob.core.windows.net/openedx-extension-api/dev/issuer-logos/image002.png?se=2024-07-26T15%3A14%3A22Z&sp=r&sv=2021-08-06&sr=b&sig=yPHm%2B/QEZ4Vd30tidX1sgbQ6WLohmqe8jGTw17sL0qY%3D"
+          />
+        </div>
+        <div>
+          <img
+            alt="logo"
+            loading="lazy"
+            src="https://arodevelopstorage.blob.core.windows.net/openedx-extension-api/dev/issuer-logos/image002.png?se=2024-07-26T15%3A14%3A22Z&sp=r&sv=2021-08-06&sr=b&sig=yPHm%2B/QEZ4Vd30tidX1sgbQ6WLohmqe8jGTw17sL0qY%3D"
+          />
+        </div>
+        <div>
+          <img
+            alt="logo"
+            loading="lazy"
+            src="https://arodevelopstorage.blob.core.windows.net/openedx-extension-api/dev/issuer-logos/image002.png?se=2024-07-26T15%3A14%3A22Z&sp=r&sv=2021-08-06&sr=b&sig=yPHm%2B/QEZ4Vd30tidX1sgbQ6WLohmqe8jGTw17sL0qY%3D"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+   
+  <div
+    class="more-information"
+  >
+    <div
+      class="title"
+    >
+      Sample More Information
+    </div>
+     
+    <div
+      class="date-information"
+    >
+      <div
+        class="date-box issued-date"
+      >
+        <div
+          class="icon"
+        >
+          <img
+            alt="issued on"
+            loading="lazy"
+            src="https://whoalxppublicstorage.blob.core.windows.net/didactica/assets/images/awards/issued-on.svg"
+          />
+        </div>
+         
+        <div
+          class="date"
+        >
+          <span>
+            Issued On
+          </span>
+           
+          <span>
+            Invalid Date
+          </span>
+        </div>
+      </div>
+       
+      <div
+        class="date-box expiring-date"
+      >
+        <div
+          class="icon"
+        >
+          <img
+            alt="expiration date"
+            loading="lazy"
+            src="https://whoalxppublicstorage.blob.core.windows.net/didactica/assets/images/awards/expiring-on.svg"
+          />
+        </div>
+         
+        <div
+          class="date"
+        >
+          <span>
+            Expiring on
+          </span>
+           
+          <span>
+            11/10/2027
+          </span>
+        </div>
+      </div>
+    </div>
+     
+    <div
+      class="other-information"
+    >
+      <div
+        class="accordion-wrapper variant1"
+      >
+        <div
+          class="accordion-item"
+        >
+          <div
+            class="accordion-header"
+          >
+            <img
+              loading="lazy"
+              src="https://whoalxppublicstorage.blob.core.windows.net/didactica/assets/images/awards/arrow.svg"
+            />
+             
+            <span>
+              Admission criteria
+            </span>
+          </div>
+           
+          <!---->
+        </div>
+        <div
+          class="accordion-item"
+        >
+          <div
+            class="accordion-header"
+          >
+            <img
+              loading="lazy"
+              src="https://whoalxppublicstorage.blob.core.windows.net/didactica/assets/images/awards/arrow.svg"
+            />
+             
+            <span>
+              Course description
+            </span>
+          </div>
+           
+          <!---->
+        </div>
+        <div
+          class="accordion-item"
+        >
+          <div
+            class="accordion-header"
+          >
+            <img
+              loading="lazy"
+              src="https://whoalxppublicstorage.blob.core.windows.net/didactica/assets/images/awards/arrow.svg"
+            />
+             
+            <span>
+              Course activities
+            </span>
+          </div>
+           
+          <!---->
+        </div>
+        <div
+          class="accordion-item"
+        >
+          <div
+            class="accordion-header"
+          >
+            <img
+              loading="lazy"
+              src="https://whoalxppublicstorage.blob.core.windows.net/didactica/assets/images/awards/arrow.svg"
+            />
+             
+            <span>
+              Course outcomes
+            </span>
+          </div>
+           
+          <!---->
+        </div>
+        <div
+          class="accordion-item"
+        >
+          <div
+            class="accordion-header"
+          >
+            <img
+              loading="lazy"
+              src="https://whoalxppublicstorage.blob.core.windows.net/didactica/assets/images/awards/arrow.svg"
+            />
+             
+            <span>
+              Assessment
+            </span>
+          </div>
+           
+          <!---->
+        </div>
+        <div
+          class="accordion-item"
+        >
+          <div
+            class="accordion-header"
+          >
+            <img
+              loading="lazy"
+              src="https://whoalxppublicstorage.blob.core.windows.net/didactica/assets/images/awards/arrow.svg"
+            />
+             
+            <span>
+              Other information
+            </span>
+          </div>
+           
+          <!---->
+        </div>
+      </div>
+    </div>
+  </div>
+   
+  <div
+    class="disclaimer"
+  >
+    <div
+      class="title"
+    >
+      Sample Disclaimer Title
+    </div>
+     
+    <div
+      class="description"
+    >
+      
+      Sample Disclaimer
+    
+    </div>
+  </div>
+</div>
+`;

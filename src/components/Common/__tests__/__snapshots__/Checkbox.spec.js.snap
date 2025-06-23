@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Checkbox.vue render when created  1`] = `
+<div
+  class="lxp-checkbox lxp-checkbox__primary"
+>
+  <div
+    class="custom-control custom-checkbox"
+  >
+    <input
+      class="custom-control-input"
+      id="checkbox-test"
+      name="checkbox-test"
+      type="checkbox"
+      value="true"
+    />
+    <label
+      class="custom-control-label"
+      for="checkbox-test"
+    >
+      
+    
+  
+    </label>
+  </div>
+</div>
+`;

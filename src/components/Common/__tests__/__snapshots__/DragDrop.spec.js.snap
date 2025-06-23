@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DragDrop.vue render when created  1`] = `
+<div
+  class="lxp-drag-drop"
+  id="dragdrop-1"
+>
+  <div
+    class="lxp-dd__drop variant1"
+  >
+    <input
+      accept=".pdf,.jpg,.jpeg,.png"
+      class="hidden-input"
+      id="lxp-file-input-dragdrop-1"
+      type="file"
+    />
+     
+    <div
+      class="h-100 w-100"
+    >
+      <div
+        class="h-100"
+      >
+         
+        <div
+          class="lxp-dd__drop--default"
+        >
+          <img
+            alt="upload"
+            loading="lazy"
+            src="https://files.lxp.academy.who.int/didactica/assets/images/drag-drop/upload.svg"
+          />
+           
+          <div
+            class="lxp-dd__drop--default--content"
+          >
+            
+            Drag and drop image here or
+            
+            <label
+              class="lxp-dd__drop--default-select"
+              for="lxp-file-input-dragdrop-1"
+            >
+              Select image
+            </label>
+          </div>
+        </div>
+      </div>
+       
+      <!---->
+       
+      <!---->
+    </div>
+  </div>
+   
+  <span
+    class="lxp-dd__note"
+  >
+    
+    Recomended file size 1MB
+  
+  </span>
+</div>
+`;

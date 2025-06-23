@@ -1,0 +1,144 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Table.vue render when created  1`] = `
+<div
+  class="lxp-table__wrapper"
+>
+  <table
+    class="lxp-table table-primary"
+  >
+    <thead>
+      <tr>
+        <!---->
+         
+        <th>
+          <div
+            class="lxp-table__heading"
+          >
+            
+            Age
+            
+            <span
+              class="lxp-table__sort"
+            >
+              <img
+                alt="sort"
+                height="24"
+                loading="lazy"
+                src="https://files.lxp.academy.who.int/didactica/assets/images/table/sort-down.svg"
+                width="24"
+              />
+            </span>
+          </div>
+        </th>
+        <th>
+          <div
+            class="lxp-table__heading"
+          >
+            
+            First Name
+            
+            <!---->
+          </div>
+        </th>
+        <th>
+          <div
+            class="lxp-table__heading"
+          >
+            
+            Last name
+            
+            <span
+              class="lxp-table__sort"
+            >
+              <img
+                alt="sort"
+                height="24"
+                loading="lazy"
+                src="https://files.lxp.academy.who.int/didactica/assets/images/table/sort-down.svg"
+                width="24"
+              />
+            </span>
+          </div>
+        </th>
+      </tr>
+    </thead>
+     
+    <tbody>
+      <tr>
+        <!---->
+         
+        <td>
+          <div>
+            40
+          </div>
+        </td>
+        <td>
+          <div>
+            Dickerson
+          </div>
+        </td>
+        <td>
+          <div>
+            Macdonald
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <!---->
+         
+        <td>
+          <div>
+            21
+          </div>
+        </td>
+        <td>
+          <div>
+            Larsen
+          </div>
+        </td>
+        <td>
+          <div>
+            Shaw
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <!---->
+         
+        <td>
+          <div>
+            89
+          </div>
+        </td>
+        <td>
+          <div>
+            Geneva
+          </div>
+        </td>
+        <td>
+          <div>
+            <b>
+              Wilson
+            </b>
+          </div>
+        </td>
+      </tr>
+    </tbody>
+     
+    <tfoot>
+      <tr>
+        <div
+          class="ltw__footer"
+        >
+          <div
+            class="ltw-footer__left"
+          />
+           
+          <!---->
+        </div>
+      </tr>
+    </tfoot>
+  </table>
+</div>
+`;
