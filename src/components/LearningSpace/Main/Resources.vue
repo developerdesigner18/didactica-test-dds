@@ -9,7 +9,7 @@
     />
     <div class="ls-resources__header">
       <div class="ls-resources__count">
-        <p>{{ count }} results found</p>
+        <p>{{ count }} results found133</p>
       </div>
 
       <ResourceFilter
